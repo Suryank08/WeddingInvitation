@@ -137,14 +137,13 @@ html{
   margin-top:10vh;
   margin-bottom: 10vh;
   width: 100%;
-  height: 200px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
- 
+ text-align: center;
 }
 #video{
-  aspect-ratio: 20/10;
   width: 70%;
   height: 100%;
   overflow: hidden;
