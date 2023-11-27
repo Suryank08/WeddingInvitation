@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+html{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+    overflow-x: hidden;
+}
+.heading{
+ text-align: center;
+ font-family: 'Comfortaa', sans-serif;
+ line-height: auto;
+}
+.heading p{
+    font-family: 'Ephesis', cursive;
+    font-size: 3.5vw;
+   
+}
+.heading h1{
+    font-family: 'Monoton', sans-serif;
+    font-size: 7vw;
+  
+}
+.info{
+  padding: 2vw;
+}
+.names{
+  
+    height: 50%;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+
+}
+.names #groom{
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+
+}
+.names #bride{
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+
+}
+.names #groom img{
+    width: 50%;
+  height:50%;
+}
+
+.names #bride img{
+    width: 50%;
+  height:60%;
+
+}
+.names h3{
+  font-size: 3vw;
+  font-family: 'Cantarell', sans-serif;
+}
+.names p{
+  font-size: 2vw;
+  font-family: 'Cantarell', sans-serif;
+  text-align: center;
+}
+#Events{
+  text-align: center;
+  font-family: 'Monoton', sans-serif;
+  font-size: 4vw;
+  text-decoration: underline;
+}
+#Haldi{
+  text-align: center;
+}
+#Haldi h2 {
+  font-family: 'Tangerine', cursive;
+  font-size: 7vw;
+  text-decoration: underline;
+}
+#Haldi p{
+  font-size: 2vw;
+  font-family: 'Ephesis', cursive;
+  letter-spacing: 2.5px;
+  font-weight: bolder;
+}
+#Marriage{
+  text-align: center;
+}
+#Marriage h2{
+  font-family: 'Tangerine', cursive;
+  font-size: 7vw;
+  text-decoration: underline;
+}
+#Marriage p{
+  font-size: 2vw;
+  font-family: 'Ephesis', cursive;
+  letter-spacing: 2.5px;
+  font-weight: bolder;
+}
+#Reception{
+  text-align: center;
+}
+#Reception h2{
+  font-family: 'Tangerine', cursive;
+  font-size: 7vw;
+  text-decoration: underline;
+}
+#Reception p{
+  font-size: 2vw;
+  font-family: 'Ephesis', cursive;
+  letter-spacing: 2.5px;
+  font-weight: bolder;
+}#yt{
+  margin-top:10vh;
+  margin-bottom: 10vh;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+#video{
+  aspect-ratio: 20/10;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
