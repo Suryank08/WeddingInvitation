@@ -8,6 +8,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
 
   @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
 
 html{
     margin:0px;
@@ -102,8 +104,8 @@ html{
 }
 #Haldi p{
   font-size: 2vw;
-  font-family: 'Ephesis', cursive;
-  letter-spacing: 2.5px;
+ font-family: 'Hedvig Letters Sans', sans-serif;
+  letter-spacing: 1px;
   font-weight: bolder;
 }
 #Marriage{
@@ -116,8 +118,8 @@ html{
 }
 #Marriage p{
   font-size: 2vw;
-  font-family: 'Ephesis', cursive;
-  letter-spacing: 2.5px;
+  font-family: 'Hedvig Letters Sans', sans-serif;
+  letter-spacing: 1px;
   font-weight: bolder;
 }
 #Reception{
@@ -130,8 +132,8 @@ html{
 }
 #Reception p{
   font-size: 2vw;
-  font-family: 'Ephesis', cursive;
-  letter-spacing: 2.5px;
+font-family: 'Hedvig Letters Sans', sans-serif;
+  letter-spacing: 1px;
   font-weight: bolder;
 }
 /*#yt{
@@ -181,5 +183,4 @@ background-color:black;
 }
 a{
   color: black;
-  text-decoration:none;
 }
